@@ -1,0 +1,25 @@
+.sum__button,
+.button__inc__dec__container{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.sum__value{
+    font-size: 3rem;
+}
+
+.sum__button,
+.button__inc__dec{
+    padding: .5rem 2rem;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    transition: all 0.5s;
+    font-weight: 900;
+}
+
+.sum__button:hover,
+.button__inc__dec:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
